@@ -45,14 +45,22 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.window.showQuickPick(items).then(function (selected) {
 			if (selected) {
 				console.log(uri);
-				let origin = uri._inputBox.value;
-				uri._inputBox.value = selected.code + ' ' + origin;
+				if(uri) {
+					let selectedRepository = git.repositories.find(repository => {
+						return repository.rootUri.path === uri._rootUri.path;
+					});
+					if (selectedRepository) {
+						prefixCommit(selectedRepository, selected.code);
+					}
+				}
 			}
 		});
 	});
 	context.subscriptions.push(disposable);
 }
-
+function prefixCommit(repository:Repository, prefix:String) {
+	repository.inputBox.value = `${prefix}${repository.inputBox.value}`;
+}
 function getGitExtension() {
 	const vscodeGit = vscode.extensions.getExtension<GitExtension>('vscode.git');
 	const gitExtension = vscodeGit && vscodeGit.exports;
