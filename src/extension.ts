@@ -44,6 +44,7 @@ export function activate(context: vscode.ExtensionContext) {
 		// 显示选项列表，提示用户选择
 		vscode.window.showQuickPick(items).then(function (selected) {
 			if (selected) {
+				console.log(uri);
 				let origin = uri._inputBox.value;
 				uri._inputBox.value = selected.code + ' ' + origin;
 			}
