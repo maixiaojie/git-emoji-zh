@@ -62,7 +62,9 @@
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",
 		"pretest": "yarn run compile",
-		"test": "node ./out/test/runTest.js"
+		"test": "node ./out/test/runTest.js",
+		"patch": "vsce publish patch",
+		"minor": "vsce publish minor"
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.1",
