@@ -1,0 +1,78 @@
+{
+	"name": "git-emoji-zh",
+	"displayName": "Git Emoji Commit 中文版",
+	"description": "prefix commit message with value in git emoji",
+	"version": "1.0.0",
+	"publisher": "maixiaojie",
+	"author": {
+		"name": "maixiaojie"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/maixiaojie/git-emoji-zh/blob/master/README.md",
+	"bugs": {
+		"url": "https://github.com/maixiaojie/git-emoji-zh/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/maixiaojie/git-emoji-zh.git"
+	},
+	"engines": {
+		"vscode": "^1.32.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"icon": "images/logo.png",
+	"preview": false,
+	"activationEvents": [
+		"onCommand:extension.gitEmoji"
+	],
+	"galleryBanner": {
+		"color": "#f0efe7",
+		"theme": "light"
+	},
+	"keywords": [
+		"git",
+		"emoji"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.gitEmoji",
+				"title": "git emoji commit message",
+				"icon": {
+					"dark": "images/git-emoji.svg",
+					"light": "images/git-emoji_light.svg"
+				}
+			}
+		],
+		"menus": {
+			"scm/title": [
+				{
+					"when": "scmProvider == git",
+					"command": "extension.gitEmoji",
+					"group": "navigation"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "yarn run compile",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.6",
+		"@types/node": "^10.12.21",
+		"@types/vscode": "^1.32.0",
+		"glob": "^7.1.4",
+		"mocha": "^6.1.4",
+		"typescript": "^3.3.1",
+		"tslint": "^5.12.1",
+		"vscode-test": "^1.2.0"
+	}
+}

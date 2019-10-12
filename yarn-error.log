@@ -1,0 +1,75 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/typescript/-/typescript-3.6.4.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141091:19)
+      at Object.onceWrapper (events.js:286:20)
+      at ClientRequest.emit (events.js:198:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:662:40)
+      at Object.onceWrapper (events.js:286:20)
+      at TLSSocket.emit (events.js:198:13)
+      at TLSSocket.Socket._onTimeout (net.js:442:8)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+
+npm manifest: 
+  {
+  	"name": "prefix",
+  	"displayName": "",
+  	"description": "",
+  	"version": "0.0.1",
+  	"engines": {
+  		"vscode": "^1.39.0"
+  	},
+  	"categories": [
+  		"Other"
+  	],
+  	"activationEvents": [
+  		"onCommand:extension.helloWorld"
+  	],
+  	"main": "./out/extension.js",
+  	"contributes": {
+  		"commands": [{
+  			"command": "extension.helloWorld",
+  			"title": "Hello World"
+  		}]
+  	},
+  	"scripts": {
+  		"vscode:prepublish": "yarn run compile",
+  		"compile": "tsc -p ./",
+  		"watch": "tsc -watch -p ./",
+  		"pretest": "yarn run compile",
+  		"test": "node ./out/test/runTest.js"
+  	},
+  	"devDependencies": {
+  		"@types/glob": "^7.1.1",
+  		"@types/mocha": "^5.2.6",
+  		"@types/node": "^10.12.21",
+  		"@types/vscode": "^1.39.0",
+  		"glob": "^7.1.4",
+  		"mocha": "^6.1.4",
+  		"typescript": "^3.3.1",
+  		"tslint": "^5.12.1",
+  		"vscode-test": "^1.2.0"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
