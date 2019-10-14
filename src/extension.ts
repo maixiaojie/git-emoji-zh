@@ -45,12 +45,17 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.window.showQuickPick(items).then(function (selected) {
 			if (selected) {
 				console.log(uri);
+				vscode.commands.executeCommand('workbench.view.scm');
 				if(uri) {
 					let selectedRepository = git.repositories.find(repository => {
 						return repository.rootUri.path === uri._rootUri.path;
 					});
 					if (selectedRepository) {
 						prefixCommit(selectedRepository, selected.code);
+					}
+				}else {
+					for(let repo of git.repositories) {
+						prefixCommit(repo, selected.code);
 					}
 				}
 			}
