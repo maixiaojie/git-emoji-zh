@@ -6,6 +6,8 @@
 
 ![](images/feature_main.png)
 
+![](images/feature_main_rs.png)
+
 ## issues
 
 [https://github.com/maixiaojie/git-emoji-zh/issues](https://github.com/maixiaojie/git-emoji-zh/issues)
