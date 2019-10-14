@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.1.3] 
+
+- update docs
+
 ## [1.1.2] 
 
 - update docs
