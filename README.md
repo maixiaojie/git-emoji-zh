@@ -12,6 +12,8 @@ English User can go to here ☞ [git-emoji Commit](https://github.com/maixiaojie
 
 ![](images/features.gif)
 
+提交后的效果如下图：
+
 ![](images/feature_main_rs.png)
 
 ## download 
