@@ -2,7 +2,7 @@
 	"name": "git-emoji-zh",
 	"displayName": "Git Emoji Commit 中文版",
 	"description": "提交 git 的时候，加上 emoji 前缀！",
-	"version": "1.1.4",
+	"version": "1.1.5",
 	"publisher": "maixiaojie",
 	"author": {
 		"name": "maixiaojie"
