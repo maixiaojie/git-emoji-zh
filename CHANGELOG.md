@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.1.5] 2019-10-15
+
+- update docs
+- add demonstration gif
+
 ## [1.1.4] 2019-10-14
 
 - update docs
