@@ -2,6 +2,10 @@
 
 ## [1.1.5] 2019-10-15
 
+- fix some bugs
+
+## [1.1.5] 2019-10-15
+
 - update docs
 - add demonstration gif
 
