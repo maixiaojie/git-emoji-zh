@@ -41,7 +41,7 @@ export function activate(context: vscode.ExtensionContext) {
 		items.push({ label: "🍎", code: ':apple:', description: "苹果 (修复 macOS 下的问题)"});
 		items.push({ label: "🐧", code: ':penguin:', description: "企鹅 (修复 Linux 下的问题)"});
 		items.push({ label: "🏁", code: ':checked_flag:', description: "旗帜 (修复 Windows 下的问题)"});
-		items=items.map(item=>({...item,code:item.code+" "}))
+		items=items.map(item=>({...item,code:item.code+" "}));
 		// 显示选项列表，提示用户选择
 		vscode.window.showQuickPick(items).then(function (selected) {
 			if (selected) {
