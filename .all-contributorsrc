@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "maixiaojie",
+      "name": "麦晓杰 lavna",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11681287?v=4",
+      "profile": "https://blog.mcust.cn/blogs/maixiaojie",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "git-emoji-zh",
+  "projectOwner": "maixiaojie",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
