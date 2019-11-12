@@ -1,5 +1,5 @@
 [![](https://vsmarketplacebadge.apphb.com/version/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)  [![](https://vsmarketplacebadge.apphb.com/installs/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)  [![](https://vsmarketplacebadge.apphb.com/downloads/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)  [![](https://vsmarketplacebadge.apphb.com/rating/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
 
 # Git Emoji Commit 中文版
 
@@ -48,6 +48,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://blog.dengxf.cn"><img src="https://avatars3.githubusercontent.com/u/20966346?v=4" width="100px;" alt="Dennis"/><br /><sub><b>Dennis</b></sub></a><br /><a href="https://github.com/maixiaojie/git-emoji-zh/commits?author=Dennis8274" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/kurryzhang"><img src="https://avatars0.githubusercontent.com/u/30166664?v=4" width="100px;" alt="kurryzhang"/><br /><sub><b>kurryzhang</b></sub></a><br /><a href="#design-kurryzhang" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/Ord1nAryJ"><img src="https://avatars2.githubusercontent.com/u/35832921?v=4" width="100px;" alt="Ord1nAryJ"/><br /><sub><b>Ord1nAryJ</b></sub></a><br /><a href="#example-Ord1nAryJ" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/BlackblackZhang"><img src="https://avatars0.githubusercontent.com/u/21030035?v=4" width="100px;" alt="blackZhang"/><br /><sub><b>blackZhang</b></sub></a><br /><a href="#content-BlackblackZhang" title="Content">🖋</a></td>
   </tr>
 </table>
 
