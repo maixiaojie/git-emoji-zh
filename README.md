@@ -1,5 +1,5 @@
 [![](https://vsmarketplacebadge.apphb.com/version/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)  [![](https://vsmarketplacebadge.apphb.com/installs/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)  [![](https://vsmarketplacebadge.apphb.com/downloads/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)  [![](https://vsmarketplacebadge.apphb.com/rating/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
 # Git Emoji Commit 中文版
 
@@ -45,6 +45,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://blog.mcust.cn/blogs/maixiaojie"><img src="https://avatars2.githubusercontent.com/u/11681287?v=4" width="100px;" alt="麦晓杰 lavna"/><br /><sub><b>麦晓杰 lavna</b></sub></a><br /><a href="https://github.com/maixiaojie/git-emoji-zh/commits?author=maixiaojie" title="Code">💻</a></td>
     <td align="center"><a href="https://www.shenzilong.cn"><img src="https://avatars1.githubusercontent.com/u/28727933?v=4" width="100px;" alt="崮生"/><br /><sub><b>崮生</b></sub></a><br /><a href="https://github.com/maixiaojie/git-emoji-zh/commits?author=2234839" title="Code">💻</a></td>
+    <td align="center"><a href="http://blog.dengxf.cn"><img src="https://avatars3.githubusercontent.com/u/20966346?v=4" width="100px;" alt="Dennis"/><br /><sub><b>Dennis</b></sub></a><br /><a href="https://github.com/maixiaojie/git-emoji-zh/commits?author=Dennis8274" title="Code">💻</a></td>
   </tr>
 </table>
 
