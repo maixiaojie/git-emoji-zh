@@ -1,4 +1,5 @@
 [![](https://vsmarketplacebadge.apphb.com/version/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)  [![](https://vsmarketplacebadge.apphb.com/installs/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)  [![](https://vsmarketplacebadge.apphb.com/downloads/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)  [![](https://vsmarketplacebadge.apphb.com/rating/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 # Git Emoji Commit 中文版
 
@@ -33,3 +34,19 @@ English User can go to here ☞ [git-emoji Commit](https://github.com/maixiaojie
 [https://github.com/maixiaojie/git-emoji-zh](https://github.com/maixiaojie/git-emoji-zh)
 
 **Enjoy!**
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://blog.mcust.cn/blogs/maixiaojie"><img src="https://avatars2.githubusercontent.com/u/11681287?v=4" width="100px;" alt="麦晓杰 lavna"/><br /><sub><b>麦晓杰 lavna</b></sub></a><br /><a href="https://github.com/maixiaojie/git-emoji-zh/commits?author=maixiaojie" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
