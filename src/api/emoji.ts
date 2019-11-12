@@ -1,4 +1,4 @@
-// 中文emoji 
+// 中文emoji  这些目前没有使用
 
 let items = [];
 items.push({ label: "🎉", code: ':tada:', description: "庆祝 (初次提交)"});
