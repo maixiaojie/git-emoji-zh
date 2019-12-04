@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.1.8] 2019-12-4
+- 添加[口红]表情
+- 允许切换label和emoji两种方案  (by [崮生](https://github.com/2234839))
+
 ## [1.1.7] 2019-11-12
 
 - 使用原生的 emoji 来做 commit 内容
