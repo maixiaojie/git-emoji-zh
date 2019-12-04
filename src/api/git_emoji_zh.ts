@@ -27,6 +27,13 @@ let emojis: Array<Emoji> = [
         "name": "火花"
     },
     {
+        "emoji": "💄",
+        "entity": "&#x1f525;",
+        "code": ":lipstick:",
+        "description": "更新 UI 和样式文件",
+        "name": "口红"
+    },
+    {
         "emoji": "🐛",
         "entity": "&#x1f41b;",
         "code": ":bug:",
