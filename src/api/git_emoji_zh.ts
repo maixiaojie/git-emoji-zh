@@ -1,9 +1,9 @@
-interface Emoji {
-    readonly emoji: any;
-    readonly entity?: any;
-    readonly code: any;
-    readonly description: any;
-    readonly name: any;
+export interface Emoji {
+  readonly emoji: any
+  readonly entity?: any
+  readonly code: any
+  readonly description: any
+  readonly name: any
 }
 let emojis: Array<Emoji> = [
     {

@@ -25,7 +25,8 @@
 	"icon": "images/logo.png",
 	"preview": false,
 	"activationEvents": [
-		"onCommand:extension.gitEmoji"
+		"onCommand:extension.gitEmoji",
+		"onCommand:extension.switching"
 	],
 	"galleryBanner": {
 		"color": "#f0efe7",
@@ -45,6 +46,10 @@
 					"dark": "images/git-emoji.svg",
 					"light": "images/git-emoji_light.svg"
 				}
+			},
+			{
+				"command": "extension.switching",
+				"title": "git emoji label switching"
 			}
 		],
 		"menus": {
