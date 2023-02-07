@@ -46,10 +46,6 @@
 					"dark": "images/git-emoji.svg",
 					"light": "images/git-emoji_light.svg"
 				}
-			},
-			{
-				"command": "extension.switching",
-				"title": "git emoji label switching"
 			}
 		],
 		"menus": {
@@ -60,6 +56,25 @@
 					"group": "navigation"
 				}
 			]
+		},
+		"configuration": {
+			"title": "Git Emoji Commit 中文版",
+			"properties": {
+				"git-emoji-commit.emojiOrCode": {
+					"type": "string",
+					"default": "emoji",
+					"enum": [
+						"emoji",
+						"code"
+					],
+					"description": "使用Emoji图标还是Emoji代码"
+				},
+				"git-emoji-commit.enableAdditionalEmojis": {
+					"type": "boolean",
+					"default": false,
+					"description": "启用附加Emoji"
+				}
+			}
 		}
 	},
 	"scripts": {
