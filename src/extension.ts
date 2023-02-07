@@ -1,6 +1,8 @@
 import * as vscode from 'vscode'
 import { GitExtension, Repository } from './api/git'
 import emojis from './api/git_emoji_zh'
+import { additionalEmojis } from './api/emoji'
+
 export function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand('extension.gitEmoji', (uri?) => {
     const git = getGitExtension()
@@ -21,6 +23,17 @@ export function activate(context: vscode.ExtensionContext) {
         label: emoji.emoji + ' ' + emoji.description,
         description: emoji.name
       })
+    }
+    // 添加附加Emoji
+    const enableAdditionalEmojis = config.get("enableAdditionalEmojis", false)
+    if (enableAdditionalEmojis) {
+      for (const emoji of additionalEmojis) {
+        items.push({
+          code: emoji.code,
+          emoji: emoji.label,
+          label: emoji.label + ' ' + emoji.description
+        })
+      }
     }
     // 显示选项列表，提示用户选择
     vscode.window.showQuickPick(items).then(function (selected) {

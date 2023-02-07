@@ -68,6 +68,11 @@
 						"code"
 					],
 					"description": "使用Emoji图标还是Emoji代码"
+				},
+				"git-emoji-commit.enableAdditionalEmojis": {
+					"type": "boolean",
+					"default": false,
+					"description": "启用附加Emoji"
 				}
 			}
 		}
